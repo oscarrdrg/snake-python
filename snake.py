@@ -16,7 +16,7 @@ fps = pygame.time.Clock()
 
 
 def food():
-    random_pos = random.randint(0, 49)*10
+    random_pos = random.randint(0, 48)*10
     food_pos = [random_pos, random_pos]
     return food_pos
 
